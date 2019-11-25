@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+/* Header start */
+#header{
+    padding: 20px 5px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+
+}
+.menu .logo{
+    flex: 2;
+}
+.menu .nav{
+    flex: 2;
+}
+.menu .nav ul li{
+    display: inline-block;
+    padding: 5px 12px;
+}
+.menu .menu-right i{
+    margin-right: 8px;
+}
+/* Header end */
+/* Explore start */
+#explore img{
+    width: 100%;
+}
+#explore {
+    position: relative;
+}
+#explore .explore-middle{
+    position: absolute;
+    width: 30%;
+    top: 50%;
+    left: 150px;
+    transform: translateY(-50%);
+    color: #fff;
+}
+#explore .explore-middle h1{
+    font-size: 3.4em;
+    margin: 30px 0;
+}
+#explore .explore-middle span{
+    font-size: 2em;
+}
+#explore .explore-middle button{
+    padding: 18px 25px;
+    background:transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    transition: .4s;
+}
+#explore .explore-middle button:hover{
+    background: black;
+    color: #fff;
+    border-color: black;
+}
+/* Explore end */
+/* Brend start */
+.wrapper{
+    width: 80%;
+    margin: auto;
+}
+#brend .all-brend{
+    display: flex;
+}
+#brend .all-brend .brend-left,
+#brend .all-brend .brend-right{
+    width: 50%;
+    margin: 15px;
+}
+#brend .all-brend .brend-left .brend-shop{
+    background: url(../photo/01.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 680px;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+#brend .all-brend .brend-shop span{
+    font-size: 20px;
+    color: #fa323c;
+    text-transform: uppercase;
+    line-height: 14px;
+}
+#brend .all-brend .brend-shop h1{
+    font-size: 36px;
+    margin: 25px 0;
+}
+#brend .all-brend .brend-shop button{
+    padding: 18px 25px;
+    background:transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    color: black;
+    transition: .4s;
+    cursor: pointer;
+}
+#brend .all-brend .brend-shop button:hover{
+    border-bottom-color: red;
+}
+#brend .all-brend .brend-right .brend-shop{
+    background: url(../photo/02.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 325px;
+    padding-left: 50px;
+    padding-top: 50px;
+    margin-bottom: 30px;
+} 
+#brend .all-brend .brend-right .brend-shop:last-child{
+    background: url(../photo/03.jpg);
+}
+/* Brend end */
+/* Products start */
+#product .wrapper{
+    text-align: center;
+}
+#product .all-product{
+    display: flex;
+    flex-wrap: wrap;
+}
+#product img{
+    width: 100%;
+}
+#product .product-item{
+    text-align: center;
+    padding: 15px;
+    width: 25%;
+}
+#product .wrapper button{
+    padding: 20px 50px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    background: transparent;
+    transition: .4s;
+    border: 1px solid black;
+}
+#product .wrapper button:hover{
+    background: #fa323c;
+    color: #fff;
+    border: 1px solid #fa323c;
+}
+/* Products end */
+/* Story start */
+#story{
+    width: 80%;
+    margin: auto;
+}
+#story .story-top{
+    text-align: center;
+}
+#story .story-top h1{
+    font-size: 40px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+#story .story-top p{
+    color: grey;
+    margin-bottom: 60px;
+}
+#story .story-bottom{
+    display: flex;
+    justify-content: space-around;
+}
+#story .story-bottom .story-text{
+    float: left;
+}
+#story .story-bottom .story-text i{
+    color: #fa323c;
+    margin-right: 10px;
+}
+#story .story-bottom .story-text p{
+    font-size: 12px;
+    color: grey;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#story .story-bottom .story-text h4{
+    font-size: 20px;
+    margin-bottom: 20px;
+    transition: .2s;
+}
+#story .story-bottom .story-text h4:hover{
+    color: #fa323c;
+}
+/* Story end */
+/* Sub start */
+#sub{
+    margin: 200px 0;
+    text-align: center;
+}
+#sub .sub-txt h1{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+#sub .sub-txt p{
+    color: grey;
+    margin-bottom: 60px;
+}
+#sub .sub-in input{
+    padding: 20px 100px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+#sub .sub-in button{
+    padding: 20px 40px;
+    background: #fa323c;
+    border: none;
+    color: #fff;
+    margin-left: 10px;
+    transition: .4s;
+}
+#sub .sub-in button:hover{
+    background: black;
+}
+/* Sub end */
+/* Studio start */
+#studio{
+    width: 80%;
+    margin: auto;
+}
+#studio .img{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 80px;
+}
+/* Studio end */
+/* Contact start */
+#content{
+    width: 80%;
+    margin: auto;
+}
+.all-con{
+    display: flex;
+    justify-content: space-around;
+}
+.all-con .con-item .con-t{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.all-con .con-item .con-b{
+    color: grey;
+}
+.all-con .con-item .con-b i{
+    margin-right: 10px;
+}
+/* contact end */
